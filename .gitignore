@@ -1,0 +1,11 @@
+*
+.mozilla
+.cache
+.local/share
+.macromedia
+.nv/GLCache
+.pulse
+.svn/
+*.o
+*.o.cmd
+!.*
