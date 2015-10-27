@@ -1,4 +1,6 @@
 export ANDROID_HOME=~/android-sdk-linux
+
+export _ANTIGEN_CACHE_ENABLED=true
 # Set the key mapping style to 'emacs' or 'vi'.
 zstyle ':omz:editor' keymap 'emacs'
 
@@ -31,10 +33,23 @@ zstyle ':completion:*' completer _oldlist _expand _complete _ignored _match _cor
 zstyle ':completion:*' matcher-list '+' '+m:{[:lower:]}={[:upper:]}' '+m:{[:lower:][:upper:]}={[:upper:][:lower:]}' '+r:|[._-]=** r:|=** l:|=*'
 zstyle :compinstall filename '/home/nicholaswalton/.zshrc'
 
-autoload -Uz compinit
-compinit
 # End of lines added by compinstall
 
+source ~/antigen/antigen.zsh
+
+#antigen use oh-my-zsh
+antigen bundles <<EOBUNDLES
+	git
+	zsh-users/zsh-syntax-highlighting
+	zsh-users/zsh-history-substring-search
+	command-not-found
+EOBUNDLES
+antigen theme sorin
+antigen apply
+
+
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 alias make="nice -n15 make"
 export PATH=~/CodeSourcery/Sourcery_CodeBench_for_ARM_GNU_Linux:~/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_GNU_Linux/bin:~/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/bin:$PATH
@@ -52,3 +67,4 @@ PERL5LIB="/home/nicholaswalton/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"; export 
 PERL_LOCAL_LIB_ROOT="/home/nicholaswalton/perl5${PERL_LOCAL_LIB_ROOT+:}${PERL_LOCAL_LIB_ROOT}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/nicholaswalton/perl5\""; export PERL_MB_OPT;
 #PERL_MM_OPT="INSTALL_BASE=/home/nicholaswalton/perl5"; export PERL_MM_OPT;
+
