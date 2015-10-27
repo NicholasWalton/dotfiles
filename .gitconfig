@@ -1,0 +1,17 @@
+[merge]
+	renamelimit = 10000
+[color]
+	ui = auto
+[user]
+	email = nicholas.walton@gmail.com
+[gui]
+	fontui = -family \"DejaVu Serif\" -size 9 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family \"Ubuntu Mono\" -size 11 -weight normal -slant roman -underline 0 -overstrike 0
+[push]
+	default = current
+[core]
+	whitespace = tabwidth=4
+[rebase]
+	autosquash = on
+	autostash = true
+	missingcommitscheck = error

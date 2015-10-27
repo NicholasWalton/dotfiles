@@ -1,0 +1,22 @@
+[submodule "buildroot"]
+	path = buildroot
+	url = file:///run/user/nicholaswalton/gvfs/smb-share:server=fs2.local,share=fs2/Git/buildroot
+[submodule "linux"]
+	path = linux
+	url = file:///run/user/nicholaswalton/gvfs/smb-share:server=fs2.local,share=fs2/Git/linux
+[submodule "at91bootstrap"]
+	path = at91bootstrap
+	url = file:///run/user/nicholaswalton/gvfs/smb-share:server=fs2.local,share=fs2/Git/at91bootstrap
+[submodule "u-boot"]
+	path = u-boot-at91
+	url = file:///run/user/nicholaswalton/gvfs/smb-share:server=fs2.local,share=fs2/Git/u-boot
+[submodule "M18_G35"]
+	path = M18_G35
+	url = file:///run/user/nicholaswalton/gvfs/smb-share:server=fs2.local,share=fs2/Git/M18_G35
+[submodule "oh-my-zsh"]
+	path = .oh-my-zsh
+	url = git://github.com/sorin-ionescu/prezto.git
+
+[submodule "antigen"]
+	path = antigen
+	url = https://github.com/zsh-users/antigen.git
