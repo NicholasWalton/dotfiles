@@ -49,7 +49,9 @@ antigen apply
 
 
 bindkey '^[[A' history-substring-search-up
+bindkey '^[OA' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+bindkey '^[OB' history-substring-search-down
 
 alias make="nice -n15 make"
 export PATH=~/CodeSourcery/Sourcery_CodeBench_for_ARM_GNU_Linux:~/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_GNU_Linux/bin:~/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/bin:$PATH
