@@ -183,8 +183,8 @@ def main():
 		vprint("Instant pattern '%s' to set base time" % instantpat)
 
 	if device.lower() == "stdin":
-		import os
 		import select
+		s = sys.stdin
 	else: 
 	    # now actually open and configure the requested serial port
 	    # specify a read timeout of 1 second
@@ -196,13 +196,14 @@ def main():
 	newline = 1
 	curline = ""
 	vprint("Use Control-C to stop...")
-	while(1):
-		try:
+	try:
+                while(1):
+                        x = ""
 		    # read for up to 1 second
 			if device.lower() == "stdin":
-				r, w, e = select.select([ os.stdin ], [], [], 1)
-				if os.stdin in r:
-					x = os.read(os.stdin)
+				r, w, e = select.select([ s ], [], [], 1)       # wait up to 1 second
+				if s in r:
+					x = os.read(s.fileno(), 1)      # read 1 character
 			else:
 				x = s.read()
 
@@ -258,12 +259,10 @@ def main():
 					basetime = linetime
 				curline = ""
 			sys.stdout.flush()
-		except:
-			break
-
-	s.close()
-	if instanttime:
-		instanttime_str = '%4.2f' % (instanttime-basetime)
-		print('\nThe instantpat: "' + instantpat + '", was matched at ' + instanttime_str)
+	finally:
+                s.close()
+                if instanttime:
+                        instanttime_str = '%4.2f' % (instanttime-basetime)
+                        print('\nThe instantpat: "' + instantpat + '", was matched at ' + instanttime_str)
 
 main()
