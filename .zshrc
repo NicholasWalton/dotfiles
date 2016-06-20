@@ -29,9 +29,9 @@ source "$HOME/.oh-my-zsh/init.zsh"
 
 # The following lines were added by compinstall
 
-zstyle ':completion:*' completer _oldlist _expand _complete _ignored _match _correct _approximate _prefix
-zstyle ':completion:*' matcher-list '+' '+m:{[:lower:]}={[:upper:]}' '+m:{[:lower:][:upper:]}={[:upper:][:lower:]}' '+r:|[._-]=** r:|=** l:|=*'
-zstyle :compinstall filename '/home/nicholaswalton/.zshrc'
+#zstyle ':completion:*' completer _oldlist _expand _complete _ignored _match _correct _approximate _prefix
+#zstyle ':completion:*' matcher-list '+' '+m:{[:lower:]}={[:upper:]}' '+m:{[:lower:][:upper:]}={[:upper:][:lower:]}' '+r:|[._-]=** r:|=** l:|=*'
+#zstyle :compinstall filename '/home/nicholaswalton/.zshrc'
 
 # End of lines added by compinstall
 
@@ -44,7 +44,7 @@ antigen bundles <<EOBUNDLES
 	zsh-users/zsh-history-substring-search
 	command-not-found
 EOBUNDLES
-antigen theme sorin
+#antigen theme sorin
 antigen apply
 
 
@@ -52,6 +52,8 @@ bindkey '^[[A' history-substring-search-up
 bindkey '^[OA' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 bindkey '^[OB' history-substring-search-down
+
+bindkey '^P' fuzzy-search-and-edit
 
 alias make="nice -n15 make"
 export PATH=~/CodeSourcery/Sourcery_CodeBench_for_ARM_GNU_Linux:~/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_GNU_Linux/bin:~/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/bin:$PATH
@@ -70,3 +72,5 @@ PERL_LOCAL_LIB_ROOT="/home/nicholaswalton/perl5${PERL_LOCAL_LIB_ROOT+:}${PERL_LO
 PERL_MB_OPT="--install_base \"/home/nicholaswalton/perl5\""; export PERL_MB_OPT;
 #PERL_MM_OPT="INSTALL_BASE=/home/nicholaswalton/perl5"; export PERL_MM_OPT;
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
