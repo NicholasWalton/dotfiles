@@ -1,0 +1,15 @@
+CustomFiltersActionGroup.org.eclipse.cdt.ui.CView.TAG_DUMMY_TO_TEST_EXISTENCE=storedViewPreferences
+content_assist_disabled_computers=org.eclipse.cdt.ui.parserProposalCategory\u0000org.eclipse.cdt.ui.textProposalCategory\u0000
+eclipse.preferences.version=1
+lastRecentlyUsedFilters=org.eclipse.cdt.internal.ui.CView.ObjectFilter,
+org.eclipse.cdt.internal.ui.CView.AnonymousStructFilter=true
+org.eclipse.cdt.internal.ui.CView.ForwardDeclarationFilter=true
+org.eclipse.cdt.internal.ui.CView.ObjectFilter=true
+org.eclipse.cdt.ui.CView_patternFilterId_.*=true
+org.eclipse.cdt.ui.CView_patternFilterId_RemoteSystemsConnections=true
+org.eclipse.cdt.ui.CView_patternFilterId_RemoteSystemsTempFiles=true
+scalability.numberOfLines=20000
+sourceHoverBackgroundColor=255,255,255
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
