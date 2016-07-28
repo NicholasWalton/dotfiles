@@ -1,0 +1,119 @@
+<monitors version="1">
+  <configuration>
+      <clone>no</clone>
+      <output name="DVI-I-0">
+      </output>
+      <output name="DVI-I-1">
+          <vendor>ACR</vendor>
+          <product>0x009a</product>
+          <serial>0x9131049f</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="HDMI-0">
+          <vendor>ACI</vendor>
+          <product>0x2494</product>
+          <serial>0x01010101</serial>
+          <width>800</width>
+          <height>600</height>
+          <rate>0</rate>
+          <x>1920</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="DVI-D-0">
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="DVI-I-0">
+      </output>
+      <output name="DVI-I-1">
+          <vendor>ACI</vendor>
+          <product>0x2494</product>
+          <serial>0x01010101</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>1920</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="HDMI-0">
+          <vendor>ACR</vendor>
+          <product>0x009a</product>
+          <serial>0x9131049f</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="DVI-D-0">
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="DVI-I-0">
+      </output>
+      <output name="DVI-I-1">
+          <vendor>VSC</vendor>
+          <product>0x2b3e</product>
+          <serial>0x01010101</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>3840</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="HDMI-0">
+          <vendor>ACI</vendor>
+          <product>0x2494</product>
+          <serial>0x01010101</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="DVI-D-0">
+          <vendor>VSC</vendor>
+          <product>0x2b3e</product>
+          <serial>0x01010101</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>1920</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+  </configuration>
+</monitors>

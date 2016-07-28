@@ -1,0 +1,13 @@
+[core]
+modules=xwayland.so
+idle-time=0
+gbm-format=rgb565
+[output]
+name=X1
+#transform=180
+mode=800x480
+#scale=0.5
+[shell]
+panel-location=none
+locking=false
+

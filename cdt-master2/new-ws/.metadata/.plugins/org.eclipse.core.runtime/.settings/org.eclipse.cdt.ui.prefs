@@ -1,4 +1,6 @@
 CustomFiltersActionGroup.org.eclipse.cdt.ui.CView.TAG_DUMMY_TO_TEST_EXISTENCE=storedViewPreferences
+autoOpenConsole=false
+consoleOnTop=true
 content_assist_disabled_computers=org.eclipse.cdt.ui.parserProposalCategory\u0000org.eclipse.cdt.ui.textProposalCategory\u0000
 eclipse.preferences.version=1
 lastRecentlyUsedFilters=org.eclipse.cdt.internal.ui.CView.ObjectFilter,

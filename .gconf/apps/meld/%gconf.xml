@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="regexes" mtime="1391470514" type="string">
+		<stringvalue>CVS keywords	0	\$\w+(:[^\n$]+)?\$
+C++ comment	0	//.*
+C comment	0	/\*.*?\*/
+All whitespace	1	[ \t\r\f\v]*
+Leading whitespace	0	^[ \t\r\f\v]*
+Script comment	0	#.*</stringvalue>
+	</entry>
+	<entry name="ignore_blank_lines" mtime="1378750104" type="bool" value="true"/>
+	<entry name="use_syntax_highlighting" mtime="1378750097" type="bool" value="true"/>
+	<entry name="dir_status_filters" mtime="1422305831" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>new</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>modified</stringvalue>
+		</li>
+	</entry>
+	<entry name="window_size_y" mtime="1422572722" type="int" value="1028"/>
+	<entry name="window_size_x" mtime="1422572722" type="int" value="960"/>
+</gconf>

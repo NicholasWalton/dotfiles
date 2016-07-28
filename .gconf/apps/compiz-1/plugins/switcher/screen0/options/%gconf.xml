@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="next_key" mtime="1371231463" type="string">
+		<stringvalue>&lt;Alt&gt;Tab</stringvalue>
+	</entry>
+</gconf>

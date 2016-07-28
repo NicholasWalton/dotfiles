@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="palette_expanded" mtime="1454094275" type="bool" value="true"/>
+	<entry name="favorites_width" mtime="1454094275" type="int" value="130"/>
+	<entry name="window_height" mtime="1454094275" type="int" value="448"/>
+	<entry name="window_width" mtime="1454094275" type="int" value="650"/>
+	<entry name="last_scheme_type" mtime="1454094275" type="string">
+		<stringvalue>ANALOGOUS</stringvalue>
+	</entry>
+	<entry name="last_color" mtime="1454094275" type="string">
+		<stringvalue>#6ba4b8</stringvalue>
+	</entry>
+</gconf>

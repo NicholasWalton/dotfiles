@@ -1,0 +1,69 @@
+00m0(Build:2)
+Element does not exist and cannot be created: "documentsignatures.xml"
+Rethrow
+
+Rethrow
+
+Rethrow
+Element does not exist and cannot be created: "default.xml"
+Rethrow
+Element does not exist and cannot be created: "lc_imagelist.xml"
+Rethrow
+Element does not exist and cannot be created: "documentsignatures.xml"
+Rethrow
+
+Rethrow
+
+Rethrow
+Element does not exist and cannot be created: "default.xml"
+Rethrow
+Element does not exist and cannot be created: "lc_imagelist.xml"
+Rethrow
+Element does not exist and cannot be created: "documentsignatures.xml"
+Rethrow
+
+Rethrow
+
+Rethrow
+Element does not exist and cannot be created: "default.xml"
+Rethrow
+Element does not exist and cannot be created: "lc_imagelist.xml"
+Rethrow
+Element does not exist and cannot be created: "documentsignatures.xml"
+Rethrow
+
+Rethrow
+
+Rethrow
+Element does not exist and cannot be created: "default.xml"
+Rethrow
+Element does not exist and cannot be created: "lc_imagelist.xml"
+Rethrow
+Element does not exist and cannot be created: "documentsignatures.xml"
+Rethrow
+
+Rethrow
+
+Rethrow
+Element does not exist and cannot be created: "default.xml"
+Rethrow
+Element does not exist and cannot be created: "lc_imagelist.xml"
+Rethrow
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/sfxbasemodel.cxx:1659: storeAsURL
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/objstor.cxx:1124: Begin
+
+Rethrow
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/objstor.cxx:1325: SaveAs/Export
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/objstor.cxx:1338: Locking
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/objstor.cxx:1391: Storing in own format.
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/objstor.cxx:1442: Save as own format.
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/objstor.cxx:1459: Thumbnail creation.
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/objstor.cxx:1672: Medium commit.
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/objstor.cxx:1683: Storing is successful.
+Element does not exist and cannot be created: "default.xml"
+Rethrow
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/sfxbasemodel.cxx:3105: Storing succeeded!
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/sfxbasemodel.cxx:1700: storeToURL
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/objstor.cxx:2643: 
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/objmisc.cxx:260: Resetting Error.
+/build/libreoffice-hROZUz/libreoffice-5.0.5~rc2/sfx2/source/doc/sfxbasemodel.cxx:3124: Storing failed!

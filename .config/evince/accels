@@ -1,0 +1,10 @@
+; evince GtkAccelMap rc-file         -*- scheme -*-
+; this file is an automated accelerator map dump
+;
+(gtk_accel_path "<GAction>/win.zoom-in" "plus")
+(gtk_accel_path "<GAction>/win.go-previous-page" "<Primary>Page_Up")
+; (gtk_accel_path "<Actions>/BookmarsPopupActions/RenameBookmark" "")
+; (gtk_accel_path "<Actions>/BookmarsPopupActions/RemoveBookmark" "")
+(gtk_accel_path "<GAction>/win.go-next-page" "<Primary>Page_Down")
+(gtk_accel_path "<GAction>/win.zoom-out" "minus")
+; (gtk_accel_path "<Actions>/BookmarsPopupActions/OpenBookmark" "<Primary>o")

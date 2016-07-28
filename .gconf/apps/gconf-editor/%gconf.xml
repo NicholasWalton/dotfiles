@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="recents" mtime="1371231381" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/apps/compiz-1/plugins/scale/screen0/options/initiate_all_edge</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/compiz-1/plugins/switcher/screen0/options/next_key</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/compiz-1/plugins/scale/screen0/options/initiate_all_button</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/compiz-1/plugins/scale/screen0/options/timestep</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/compiz-1/plugins/scale/screen0/options/speed</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/apps/compiz-1/general/screen0/options/hsize</stringvalue>
+		</li>
+	</entry>
+</gconf>

@@ -1,0 +1,38 @@
+[Print Settings]
+output-bin=Default
+cups-job-sheets=none,none
+print-at-time=
+print-at=now
+cups-OutputBin=Default
+cups-Duplex=None
+cups-number-up=1
+cups-Password=None
+cover-before=none
+duplex=simplex
+cover-after=none
+cups-InputSlot=Auto
+cups-ColorModel=Color
+evince-print-setting-page-size=false
+cups-RPSBitsPerPixel=2BitsPerPixel
+evince-print-setting-page-scale=1
+default-source=Auto
+media-type=Auto
+cups-JobType=Normal
+cups-UserCode=None
+cups-job-priority=50
+cups-MediaType=Auto
+evince-print-setting-page-autorotate=true
+printer=Ricoh-Aficio-MP-C2500-2
+cups-RIPrintMode=0rhit
+
+
+[Page Setup]
+PPDName=Letter
+DisplayName=US Letter
+Width=215.89999389648438
+Height=279.39999389648438
+MarginTop=6.3499999999999996
+MarginBottom=14.224
+MarginLeft=6.3499999999999996
+MarginRight=6.3499999999999996
+Orientation=portrait

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="middle_button_timeout" mtime="1415036353" type="int" value="1000"/>
+	<entry name="middle_button_emulation" mtime="1415036326" type="bool" value="true"/>
+	<entry name="device_type" mtime="1415036311" type="string">
+		<stringvalue>mouse</stringvalue>
+	</entry>
+</gconf>

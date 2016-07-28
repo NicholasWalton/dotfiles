@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="initiate_all_edge" mtime="1371231455" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="initiate_all_button" mtime="1371231466" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="timestep" mtime="1371231304" type="float" value="50"/>
+	<entry name="speed" mtime="1371231291" type="float" value="50"/>
+</gconf>

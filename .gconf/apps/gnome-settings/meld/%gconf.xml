@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="history-vc_directory" mtime="1418760892" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/linux/arch/arm/boot/dts</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/buildroot/board/cryocon/m18_g35_ek/overlay/etc/network/if-pre-up.d</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/src/barebox</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/linux/arch/arm/configs</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/cryocond/libG35</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/cryocond</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/M18C</stringvalue>
+		</li>
+	</entry>
+	<entry name="history-direntry" mtime="1422305831" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/cryocond/new_web/static</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/cryocond/M18I</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/cryocond/m18i</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/nicholaswalton/BOOT1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/nicholaswalton/var1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/nicholaswalton/root1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/garys-usbdrive-20141117-3/M24i_dig_11-16</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/garys-usbdrive-20141117-3/M24i_dig_11-7-1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/garys-usbdrive-20141117-3</stringvalue>
+		</li>
+	</entry>
+	<entry name="history-fileentry" mtime="1422403689" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/linux/arch/arm/configs/m54ek_defconfig</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/configs/m54ek_defconfig</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/buildroot/.config</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/linux/arch/arm/boot/dts/m24i.dts</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/buildroot/package/openssl/openssl.mk</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/src/elemines/src/game_REMOTE_21630.c</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/src/elemines/src/elemines_REMOTE_21630.h</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/cryocond/libG35/calgen.c</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/nicholaswalton/Downloads/CalPT100.crv</stringvalue>
+		</li>
+	</entry>
+</gconf>
