@@ -7,9 +7,30 @@
 [submodule "at91bootstrap"]
 	path = at91bootstrap
 	url = file:///run/user/nicholaswalton/gvfs/smb-share:server=fs2.local,share=fs2/Git/at91bootstrap
+[submodule "at91bootstrap-m18i-b"]
+	path = at91bootstrap-m18i-b
+	url = file:///run/user/nicholaswalton/gvfs/smb-share:server=fs2.local,share=fs2/Git/at91bootstrap
+[submodule "at91bootstrap-m54"]
+	path = at91bootstrap-m54
+	url = file:///run/user/nicholaswalton/gvfs/smb-share:server=fs2.local,share=fs2/Git/at91bootstrap
 [submodule "u-boot"]
 	path = u-boot-at91
 	url = file:///run/user/nicholaswalton/gvfs/smb-share:server=fs2.local,share=fs2/Git/u-boot
+[submodule "flek"]
+	path = src/flek
+	url = /media/FS2/Git/flek
+[submodule "fltk"]
+	path = src/fltk1.3
+	url = /media/FS2/Git/fltk
+[submodule "mod_websocket"]
+	path = src/mod_websocket
+	url = /media/FS2/Git/mod_websocket
+[submodule "psplash"]
+	path = src/psplash
+	url = /media/FS2/Git/psplash
+[submodule "uthash"]
+	path = src/uthash
+	url = /media/FS2/Git/uthash
 [submodule "M18_G35"]
 	path = M18_G35
 	url = file:///run/user/nicholaswalton/gvfs/smb-share:server=fs2.local,share=fs2/Git/M18_G35
@@ -20,3 +41,6 @@
 [submodule "antigen"]
 	path = antigen
 	url = https://github.com/zsh-users/antigen.git
+[submodule "src/thyme"]
+	path = src/thyme
+	url = https://github.com/sourcegraph/thyme.git

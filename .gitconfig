@@ -5,6 +5,7 @@
 	ui = auto
 [user]
 	email = nicholas.walton@gmail.com
+	name = 
 [gui]
 	fontui = -family \"DejaVu Serif\" -size 9 -weight normal -slant roman -underline 0 -overstrike 0
 	fontdiff = -family \"Ubuntu Mono\" -size 11 -weight normal -slant roman -underline 0 -overstrike 0
@@ -24,3 +25,9 @@
 	diff = diff-highlight | less
 [interactive]
 	diffFilter = diff-highlight
+[cola]
+	tabwidth = 4
+	boldheaders = true
+[apply]
+	whitespace = nowarn
+	ignoreWhitespace = change

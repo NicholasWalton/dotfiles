@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
 fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# added by Anaconda2 4.2.0 installer
+export PATH="/home/nicholaswalton/anaconda2/bin:$PATH"

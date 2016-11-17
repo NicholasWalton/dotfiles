@@ -1,0 +1,7 @@
+[general]
+profile = 
+integration = true
+
+[general_ubuntu]
+profile = unity
+

@@ -59,8 +59,8 @@ alias make="nice -n15 make"
 export PATH=~/CodeSourcery/Sourcery_CodeBench_for_ARM_GNU_Linux:~/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_GNU_Linux/bin:~/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/bin:$PATH
 export PATH=~/android-sdk-linux/tools:$PATH
 export PATH=~/android-sdk-linux/platform-tools/adb:~/android-sdk-linux/platform-tools:~/android-ndk-r8b:$PATH
-export PATH=~/bin:$PATH
 export PATH=~/android-ndk-r8b/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin:/home/nicholaswalton/android-ndk-r8b/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin:$PATH
+export PATH=~/bin:~/.local/bin:$PATH
 
 alias bd=popd
 export BUILDROOT_DL_DIR=/home/nicholaswalton/buildroot_dl

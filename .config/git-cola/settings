@@ -4,30 +4,52 @@
             "lock_layout": true, 
             "show_status_filter": false, 
             "height": 1056, 
-            "windowstate": "AAAA/wAAAAL9AAAAAwAAAAAAAAeAAAAEIPwCAAAAAfwAAAAAAAAEIAAAAHIA/////AEAAAAC+wAAAAwAUwB0AGEAdAB1AHMBAAAAAAAAAZsAAABvAP////wAAAGeAAAF4gAAAJUA/////AIAAAAC+wAAAAgARABpAGYAZgEAAAAAAAADHwAAABYA////+wAAAAwAQwBvAG0AbQBpAHQBAAADIgAAAP4AAABZAP///wAAAAEAAAGbAAAEIPwCAAAABPsAAAASAEIAbwBvAGsAbQBhAHIAawBzAQAAATMAAAEvAAAAAAAAAAD7AAAADABSAGUAYwBlAG4AdAAAAAGDAAAArQAAAGAA////+wAAAA4AQwBvAG4AcwBvAGwAZQAAAAKmAAABegAAABYA////+wAAABIARgBhAHYAbwByAGkAdABlAHMAAAADNwAAAH0AAABgAP///wAAAAMAAAeAAAACX/wBAAAAAfsAAAAOAEEAYwB0AGkAbwBuAHMAAAAAAAAAB4AAAABjAP///wAAAAAAAAQgAAAABAAAAAQAAAAIAAAACPwAAAAA", 
+            "windowstate": "AAAA/wAAAAL9AAAAAwAAAAAAAAZiAAAEIPwCAAAAAfwAAAAAAAAEIAAAAIYA/////AEAAAAC+wAAAAwAUwB0AGEAdAB1AHMBAAAAAAAAAdAAAACyAP////wAAAHTAAAEjwAAAMEA/////AIAAAAC+wAAAAgARABpAGYAZgEAAAAAAAADKQAAACAA////+wAAAAwAQwBvAG0AbQBpAHQBAAADLAAAAPQAAABjAP///wAAAAEAAAEbAAAEIPwCAAAABPsAAAASAEIAbwBvAGsAbQBhAHIAawBzAQAAATMAAAEvAAAAAAAAAAD7AAAADABSAGUAYwBlAG4AdAEAAAAAAAAApQAAAGoA////+wAAAA4AQwBvAG4AcwBvAGwAZQEAAACoAAADeAAAACAA////+wAAABIARgBhAHYAbwByAGkAdABlAHMAAAADtQAAAGsAAABqAP///wAAAAMAAAeAAAABLvwBAAAAAfsAAAAOAEEAYwB0AGkAbwBuAHMAAAAAAAAAB4AAAACQAP///wAAAAAAAAQgAAAABAAAAAQAAAAIAAAACPwAAAAA", 
             "width": 1920, 
             "maximized": true, 
-            "y": 24, 
-            "x": 0
+            "y": -14, 
+            "x": 3830
+        }, 
+        "finder": {
+            "y": 14, 
+            "x": 1910, 
+            "height": 1028, 
+            "width": 1920, 
+            "maximized": false
+        }, 
+        "fetch": {
+            "y": 14, 
+            "x": 617, 
+            "height": 420, 
+            "width": 666, 
+            "maximized": false
         }, 
         "gitdag": {
             "count": 1000, 
             "lock_layout": false, 
             "height": 1056, 
-            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAAAAAO/AAAEIPwCAAAAAvsAAAAGAEwAbwBnAQAAAAAAAAHrAAAAawD////7AAAACABEAGkAZgBmAQAAAe4AAAIyAAAAUQD///8AAAABAAADvgAABCD8AgAAAAL7AAAACgBHAHIAYQBwAGgBAAAAAAAAAVkAAABgAP////sAAAAKAEYAaQBsAGUAcwEAAAFcAAACxAAAAGAA////AAAAAAAABCAAAAAEAAAABAAAAAgAAAAI/AAAAAA=", 
+            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAAAAAO/AAAEIPwCAAAAAvsAAAAGAEwAbwBnAQAAAAAAAAHrAAAAawD////7AAAACABEAGkAZgBmAQAAAe4AAAIyAAAAWQD///8AAAABAAADvgAABCD8AgAAAAL7AAAACgBHAHIAYQBwAGgBAAAAAAAAAVkAAABqAP////sAAAAKAEYAaQBsAGUAcwEAAAFcAAACxAAAAGoA////AAAAAAAABCAAAAAEAAAABAAAAAgAAAAI/AAAAAA=", 
             "width": 1920, 
             "maximized": true, 
             "y": 24, 
             "x": 1920
+        }, 
+        "browser": {
+            "y": 223, 
+            "x": 702, 
+            "height": 420, 
+            "width": 720, 
+            "maximized": false
         }
     }, 
     "bookmarks": [], 
     "recent": [
-        "/home/nicholaswalton", 
-        "/home/nicholaswalton/cryocond", 
-        "/home/nicholaswalton/buildroot", 
-        "/home/nicholaswalton/linux-v4.5", 
-        "/home/nicholaswalton/src/psplash", 
-        "/home/nicholaswalton/linux"
+        "/home/nicholaswalton/cryocon/cryocond", 
+        "/home/nicholaswalton/cryocon", 
+        "/home/nicholaswalton/cryocon/buildroot", 
+        "/home/nicholaswalton/cryocon/linux", 
+        "/home/nicholaswalton/cryocon/cryocond/new_web/d3", 
+        "/home/nicholaswalton/.local/share/Trash/files/mod_websocket/contrib/lighttpd1.4", 
+        "/home/nicholaswalton"
     ]
 }
