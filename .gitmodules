@@ -36,11 +36,15 @@
 	url = file:///run/user/nicholaswalton/gvfs/smb-share:server=fs2.local,share=fs2/Git/M18_G35
 [submodule "oh-my-zsh"]
 	path = .oh-my-zsh
-	url = git://github.com/sorin-ionescu/prezto.git
+	url = https://github.com/NicholasWalton/prezto.git
 
 [submodule "antigen"]
 	path = antigen
-	url = https://github.com/zsh-users/antigen.git
+	url = https://github.com/desyncr/antigen.git
+
 [submodule "src/thyme"]
 	path = src/thyme
 	url = https://github.com/sourcegraph/thyme.git
+[submodule "src/fzf"]
+	path = src/fzf
+	url = https://github.com/junegunn/fzf.git
