@@ -2,7 +2,7 @@
 # /home/nicholaswalton/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
-# Generated on Tue Aug 16 14:37:09 2016
+# Generated on Wed Jul  5 12:03:24 2017
 #
 
 # ConfigProperties:
@@ -14,36 +14,9 @@ SliderTextEntries = Yes
 IncludeDisplayNameInConfigFile = No
 ShowQuitDialog = Yes
 UpdateRulesOnProfileNameChange = Yes
-Timer = Memory_Used_(GPU_0),Yes,3000
-Timer = Thermal_Monitor_(GPU_0),Yes,1000
 Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
+Timer = Thermal_Monitor_(GPU_0),Yes,1000
+Timer = Memory_Used_(GPU_0),Yes,3000
 
 # Attributes:
 
-[DPY:DVI-I-1]/RedBrightness=0.000000
-[DPY:DVI-I-1]/GreenBrightness=0.000000
-[DPY:DVI-I-1]/BlueBrightness=0.000000
-[DPY:DVI-I-1]/RedContrast=0.000000
-[DPY:DVI-I-1]/GreenContrast=0.000000
-[DPY:DVI-I-1]/BlueContrast=0.000000
-[DPY:DVI-I-1]/RedGamma=1.000000
-[DPY:DVI-I-1]/GreenGamma=1.000000
-[DPY:DVI-I-1]/BlueGamma=1.000000
-[DPY:HDMI-0]/RedBrightness=0.000000
-[DPY:HDMI-0]/GreenBrightness=0.000000
-[DPY:HDMI-0]/BlueBrightness=0.000000
-[DPY:HDMI-0]/RedContrast=0.000000
-[DPY:HDMI-0]/GreenContrast=0.000000
-[DPY:HDMI-0]/BlueContrast=0.000000
-[DPY:HDMI-0]/RedGamma=1.000000
-[DPY:HDMI-0]/GreenGamma=1.000000
-[DPY:HDMI-0]/BlueGamma=1.000000
-[DPY:DVI-D-0]/RedBrightness=0.000000
-[DPY:DVI-D-0]/GreenBrightness=0.000000
-[DPY:DVI-D-0]/BlueBrightness=0.000000
-[DPY:DVI-D-0]/RedContrast=0.000000
-[DPY:DVI-D-0]/GreenContrast=0.000000
-[DPY:DVI-D-0]/BlueContrast=0.000000
-[DPY:DVI-D-0]/RedGamma=1.000000
-[DPY:DVI-D-0]/GreenGamma=1.000000
-[DPY:DVI-D-0]/BlueGamma=1.000000

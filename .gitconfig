@@ -1,6 +1,7 @@
 [merge]
 	renamelimit = 10000
 	conflictStyle = diff3
+	tool = meld
 [color]
 	ui = auto
 [user]
@@ -28,6 +29,8 @@
 [cola]
 	tabwidth = 4
 	boldheaders = true
+	spellcheck = true
+	fontdiff = Ubuntu Mono,11,-1,5,50,0,0,0,0,0
 [apply]
 	whitespace = nowarn
 	ignoreWhitespace = change

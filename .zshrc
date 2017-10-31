@@ -74,3 +74,7 @@ PERL_MB_OPT="--install_base \"/home/nicholaswalton/perl5\""; export PERL_MB_OPT;
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source ~/.tiny-care-terminal.env
+
+
+alias ssh="TERM=xterm ssh"

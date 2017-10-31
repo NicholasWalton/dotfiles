@@ -1,2 +1,29 @@
 [Added Associations]
 application/octet-stream=gedit.desktop;
+application/x-fluid=fluid-2.desktop;
+application/x-ole-storage=kicad.desktop;
+x-scheme-handler/http=userapp-Firefox Developer Edition-HBGW2Y.desktop;
+x-scheme-handler/https=userapp-Firefox Developer Edition-HBGW2Y.desktop;
+x-scheme-handler/ftp=userapp-Firefox Developer Edition-HBGW2Y.desktop;
+x-scheme-handler/chrome=userapp-Firefox Developer Edition-HBGW2Y.desktop;
+text/html=userapp-Firefox Developer Edition-HBGW2Y.desktop;
+application/x-extension-htm=userapp-Firefox Developer Edition-HBGW2Y.desktop;
+application/x-extension-html=userapp-Firefox Developer Edition-HBGW2Y.desktop;
+application/x-extension-shtml=userapp-Firefox Developer Edition-HBGW2Y.desktop;
+application/xhtml+xml=userapp-Firefox Developer Edition-HBGW2Y.desktop;
+application/x-extension-xhtml=userapp-Firefox Developer Edition-HBGW2Y.desktop;
+application/x-extension-xht=userapp-Firefox Developer Edition-HBGW2Y.desktop;
+
+[Default Applications]
+application/x-fluid=fluid-2.desktop;
+x-scheme-handler/http=userapp-Firefox Developer Edition-HBGW2Y.desktop
+x-scheme-handler/https=userapp-Firefox Developer Edition-HBGW2Y.desktop
+x-scheme-handler/ftp=userapp-Firefox Developer Edition-HBGW2Y.desktop
+x-scheme-handler/chrome=userapp-Firefox Developer Edition-HBGW2Y.desktop
+text/html=userapp-Firefox Developer Edition-HBGW2Y.desktop
+application/x-extension-htm=userapp-Firefox Developer Edition-HBGW2Y.desktop
+application/x-extension-html=userapp-Firefox Developer Edition-HBGW2Y.desktop
+application/x-extension-shtml=userapp-Firefox Developer Edition-HBGW2Y.desktop
+application/xhtml+xml=userapp-Firefox Developer Edition-HBGW2Y.desktop
+application/x-extension-xhtml=userapp-Firefox Developer Edition-HBGW2Y.desktop
+application/x-extension-xht=userapp-Firefox Developer Edition-HBGW2Y.desktop

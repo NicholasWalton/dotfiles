@@ -4,3 +4,4 @@
 #add-auto-load-safe-path ~/cryocon/buildroot/m54/host/usr/arm-buildroot-linux-gnueabi/sysroot/usr/lib/libstdc++.so.6.0.20-gdb.py
 #target extended-remote revb:2345
 add-auto-load-safe-path /home/nicholaswalton/cryocon/.gdbinit
+set environment LD_LIBRARY_PATH /home/nicholaswalton/cryocon/cryocond/M54/

@@ -1,0 +1,108 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+
+# Here's an example taken from Atom's built-in keymap:
+#
+
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#_customizing_keybindings
+# * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
+#
+# If you're having trouble with your keybindings not working, try the
+# Keybinding Resolver: `Cmd+.` on macOS and `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+# * http://flight-manual.atom.io/hacking-atom/sections/debugging/#check-the-keybindings
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.platform-linux .tree-view':
+  'ctrl-3': 'unset!'
+
+'.platform-linux atom-text-editor':
+  'f3': 'unset!'
+  'ctrl-alt-down': 'unset!'
+  'ctrl-alt-up': 'unset!'
+  'ctrl-shift-up': 'symbols-view:return-from-declaration'
+  'ctrl-shift-down': 'symbols-view:go-to-declaration'
+
+"atom-workspace atom-text-editor":
+  'alt-left': 'unset!'
+  'alt-right': 'unset!'
+
+'atom-workspace, atom-text-editor':
+  'ctrl-b': "build:trigger",
+  'f8': "unset!"
+
+'.tree-view':
+  'alt-left': 'unset!'
+  'alt-right': 'unset!'
+
+'atom-workspace':
+  'ctrl-3': 'command-palette:toggle'
+  'ctrl-shift-t': 'symbols-view:toggle-project-symbols'
+  'ctrl-shift-r': 'fuzzy-finder:toggle-file-finder'
+  'alt-shift-tab': 'window:focus-next-pane'
+  # 'alt-left': 'pane:show-next-recently-used-item'
+  # 'alt-left ^alt': "pane:move-active-item-to-top-of-stack"
+  # 'alt-right ^alt': "pane:move-active-item-to-top-of-stack"
+  # 'alt-right': 'pane:show-previous-recently-used-item'
+  # 'alt-left': 'unset!'  
+  'alt-left ^alt':  'unset!'  
+  'alt-right ^alt': 'unset!'  
+  # 'alt-right': 'unset!'
+  'f8': 'dbg:continue'
+  'f5': 'custom:debug'
+  'ctrl-shift-up': 'editor:select-to-beginning-of-line'
+  'ctrl-shift-down': 'editor:select-to-end-of-line'
+  'alt-right':     'cursor-history:next'
+  'alt-left':     'cursor-history:prev'
+  # 'ctrl-cmd-i': 'cursor-history:next-within-editor'
+  # 'ctrl-cmd-o': 'cursor-history:prev-within-editor'
+  
+"atom-workspace atom-text-editor:not([mini])": 
+  "alt-up": "editor:move-line-up"
+  "alt-down": "editor:move-line-down"
+
+'body':
+  'ctrl-shift-tab': "pane:show-previous-item"
+  "ctrl-tab": "pane:show-next-item"
+#  "ctrl-tab": "pane:show-next-recently-used-item",
+  # "ctrl-tab ^ctrl": "pane:move-active-item-to-top-of-stack"
+  #  "ctrl-shift-tab": "pane:show-previous-recently-used-item",
+  # "ctrl-shift-tab ^ctrl": "pane:move-active-item-to-top-of-stack"
+  "ctrl-tab ^ctrl": "unset!"
+  "ctrl-shift-tab ^ctrl": "unset!"
+  
+'atom-text-editor:not([mini])':
+  'f5': 'unset!'
+  'f3': 'autocomplete-clang:go-declaration'
+  
+#'atom-text-editor:not([mini])':
+#  'alt-shift-down' : 'rectangle-selection:select-down'
+#  'alt-shift-up'   : 'rectangle-selection:select-up'
+#  'alt-shift-left' : 'rectangle-selection:select-left'
+#  'alt-shift-right': 'rectangle-selection:select-right'
+#  'alt-shift-home' : "rectangle-selection:select-to-beginning-Of-line"
+#  'alt-shift-end'  : "rectangle-selection:select-to-end-of-line"
+
+#"atom-workspace atom-text-editor":
+#  "ctrl-left": "unset!"
+#  "ctrl-right": "unset!"

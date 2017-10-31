@@ -1,55 +1,116 @@
 {
     "gui_state": {
-        "mainview": {
-            "lock_layout": true, 
-            "show_status_filter": false, 
-            "height": 1056, 
-            "windowstate": "AAAA/wAAAAL9AAAAAwAAAAAAAAZiAAAEIPwCAAAAAfwAAAAAAAAEIAAAAIYA/////AEAAAAC+wAAAAwAUwB0AGEAdAB1AHMBAAAAAAAAAdAAAACyAP////wAAAHTAAAEjwAAAMEA/////AIAAAAC+wAAAAgARABpAGYAZgEAAAAAAAADKQAAACAA////+wAAAAwAQwBvAG0AbQBpAHQBAAADLAAAAPQAAABjAP///wAAAAEAAAEbAAAEIPwCAAAABPsAAAASAEIAbwBvAGsAbQBhAHIAawBzAQAAATMAAAEvAAAAAAAAAAD7AAAADABSAGUAYwBlAG4AdAEAAAAAAAAApQAAAGoA////+wAAAA4AQwBvAG4AcwBvAGwAZQEAAACoAAADeAAAACAA////+wAAABIARgBhAHYAbwByAGkAdABlAHMAAAADtQAAAGsAAABqAP///wAAAAMAAAeAAAABLvwBAAAAAfsAAAAOAEEAYwB0AGkAbwBuAHMAAAAAAAAAB4AAAACQAP///wAAAAAAAAQgAAAABAAAAAQAAAAIAAAACPwAAAAA", 
-            "width": 1920, 
-            "maximized": true, 
-            "y": -14, 
-            "x": 3830
-        }, 
-        "finder": {
-            "y": 14, 
-            "x": 1910, 
-            "height": 1028, 
-            "width": 1920, 
-            "maximized": false
-        }, 
-        "fetch": {
-            "y": 14, 
-            "x": 617, 
-            "height": 420, 
-            "width": 666, 
-            "maximized": false
-        }, 
         "gitdag": {
             "count": 1000, 
             "lock_layout": false, 
+            "log": {
+                "column_widths": [
+                    100, 
+                    100, 
+                    757
+                ]
+            }, 
             "height": 1056, 
-            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAAAAAO/AAAEIPwCAAAAAvsAAAAGAEwAbwBnAQAAAAAAAAHrAAAAawD////7AAAACABEAGkAZgBmAQAAAe4AAAIyAAAAWQD///8AAAABAAADvgAABCD8AgAAAAL7AAAACgBHAHIAYQBwAGgBAAAAAAAAAVkAAABqAP////sAAAAKAEYAaQBsAGUAcwEAAAFcAAACxAAAAGoA////AAAAAAAABCAAAAAEAAAABAAAAAgAAAAI/AAAAAA=", 
+            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAAAAAO/AAAEIPwCAAAAAvsAAAAGAEwAbwBnAQAAAAAAAAHrAAAAbgD////7AAAACABEAGkAZgBmAQAAAe4AAAIyAAAAWQD///8AAAABAAADvgAABCD8AgAAAAL7AAAACgBHAHIAYQBwAGgBAAAAAAAAAvUAAABtAP////sAAAAKAEYAaQBsAGUAcwEAAAL4AAABKAAAAG0A////AAAAAAAABCAAAAAEAAAABAAAAAgAAAAI/AAAAAA=", 
             "width": 1920, 
             "maximized": true, 
             "y": 24, 
-            "x": 1920
+            "x": 3840
+        }, 
+        "mainview": {
+            "lock_layout": true, 
+            "show_status_filter": false, 
+            "height": 528, 
+            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAAAAAeAAAAEIPwCAAAAAfwAAAAAAAAEIAAAAN0A/////AEAAAAC/AAAAAAAAAF+AAABfgD////8AgAAAAL7AAAADABTAHQAYQB0AHUAcwEAAAAAAAAEHQAAAG0A/////AAABCAAAAAAAAAAbQD////8AQAAAAL7AAAAEABCAHIAYQBuAGMAaABlAHMBAAAAAAAAAJsAAACbAP////sAAAAMAFIAZQBjAGUAbgB0AQAAAJ4AAADgAAAA4AD////8AAABgQAABf8AAADBAP////wCAAAAA/sAAAAIAEQAaQBmAGYBAAAAAAAAAcMAAAAgAP////sAAAAMAEMAbwBtAG0AaQB0AQAAAcYAAAH2AAAAXQD////7AAAADgBDAG8AbgBzAG8AbABlAQAAA78AAABhAAAAIAD///8AAAABAAAAkAAABCD8AgAAAAP7AAAAEgBCAG8AbwBrAG0AYQByAGsAcwEAAAEzAAABLwAAAAAAAAAA+wAAAA4AQQBjAHQAaQBvAG4AcwAAAAAAAAAEIAAAAD0A////+wAAABIARgBhAHYAbwByAGkAdABlAHMAAAAAAAAABCAAAABtAP///wAAAAAAAAQgAAAABAAAAAQAAAAIAAAACPwAAAAA", 
+            "width": 1920, 
+            "maximized": true, 
+            "y": 2, 
+            "x": 1910, 
+            "show_diff_line_numbers": false
+        }, 
+        "preferencesview": {
+            "y": 208, 
+            "width": 771, 
+            "height": 520, 
+            "x": 555, 
+            "maximized": false
+        }, 
+        "difftool": {
+            "y": 14, 
+            "width": 1920, 
+            "maximized": false, 
+            "x": 3830, 
+            "height": 1028
+        }, 
+        "push": {
+            "prompt": true, 
+            "tags": false, 
+            "height": 1028, 
+            "width": 1920, 
+            "maximized": false, 
+            "y": 23, 
+            "x": -10
+        }, 
+        "selectcommits": {
+            "y": 23, 
+            "width": 1516, 
+            "height": 1028, 
+            "x": 192, 
+            "maximized": false
+        }, 
+        "fetch": {
+            "prune": false, 
+            "tags": false, 
+            "height": 420, 
+            "width": 666, 
+            "maximized": false, 
+            "y": 226, 
+            "x": 617
+        }, 
+        "finder": {
+            "y": 23, 
+            "width": 1920, 
+            "maximized": false, 
+            "x": 3830, 
+            "height": 1028
         }, 
         "browser": {
             "y": 223, 
             "x": 702, 
-            "height": 420, 
+            "maximized": false, 
             "width": 720, 
-            "maximized": false
+            "height": 420
         }
     }, 
     "bookmarks": [], 
     "recent": [
-        "/home/nicholaswalton/cryocon/cryocond", 
-        "/home/nicholaswalton/cryocon", 
-        "/home/nicholaswalton/cryocon/buildroot", 
-        "/home/nicholaswalton/cryocon/linux", 
-        "/home/nicholaswalton/cryocon/cryocond/new_web/d3", 
-        "/home/nicholaswalton/.local/share/Trash/files/mod_websocket/contrib/lighttpd1.4", 
-        "/home/nicholaswalton"
+        {
+            "path": "/home/nicholaswalton/cryocon/cryocond", 
+            "name": "cryocond"
+        }, 
+        {
+            "path": "/home/nicholaswalton/cryocon", 
+            "name": "cryocon"
+        }, 
+        {
+            "path": "/home/nicholaswalton/src/uwsgi", 
+            "name": "uwsgi"
+        }, 
+        {
+            "path": "/home/nicholaswalton/cryocon/buildroot", 
+            "name": "buildroot"
+        }, 
+        {
+            "path": "/home/nicholaswalton/src/zwssock", 
+            "name": "zwssock"
+        }, 
+        {
+            "path": "/home/nicholaswalton/cryocon/src/lighttpd", 
+            "name": "lighttpd"
+        }, 
+        {
+            "path": "/home/nicholaswalton/cryocon/linux", 
+            "name": "linux"
+        }
     ]
 }
