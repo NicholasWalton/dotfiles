@@ -4,7 +4,7 @@ module.exports = {
     fontSize: 16,
 
     // font family with optional fallbacks
-    fontFamily: 'Menlo, "Ubuntu Mono", "DejaVu Sans Mono", "Lucida Console", monospace',
+    fontFamily: '"Ubuntu Mono", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: 'rgba(248,48,229,0.50)',
@@ -25,31 +25,31 @@ module.exports = {
     css: '',
 
     // custom css to embed in the terminal window
-    termCSS: '',
+    termCSS: 'x-row {line-height: 1}',
 
     // custom padding (css format, i.e.: `top right bottom left`)
-    padding: '12px 14px',
+    padding: '',
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
     colors: {
-      black: '#000000',
-      red: '#ff0000',
-      green: '#33ff00',
-      yellow: '#ffff00',
-      blue: '#0066ff',
-      magenta: '#cc00ff',
-      cyan: '#00ffff',
-      white: '#d0d0d0',
-      lightBlack: '#808080',
-      lightRed: '#ff0000',
-      lightGreen: '#33ff00',
-      lightYellow: '#ffff00',
-      lightBlue: '#0066ff',
-      lightMagenta: '#cc00ff',
-      lightCyan: '#00ffff',
-      lightWhite: '#ffffff'
+      black: 		'#000000',
+      red: 			'#cd0000',
+      green: 		'#00cd00',
+      yellow: 		'#cdcd00',
+      blue: 		'#1e90ff',
+      magenta: 		'#cd00cd',
+      cyan: 		'#00cdcd',
+      white: 		'#e5e5e5',
+      lightBlack: 	'#4c4c4c',
+      lightRed: 	'#ff0000',
+      lightGreen: 	'#00ff00',
+      lightYellow: 	'#ffff00',
+      lightBlue: 	'#4682b4',
+      lightMagenta:	'#ff00ff',
+      lightCyan: 	'#00ffff',
+      lightWhite: 	'#ffffff'
     },
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
@@ -67,7 +67,7 @@ module.exports = {
     bell: 'SOUND',
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: false
+    copyOnSelect: true
 
     // URL to custom bell
     // bellSoundURL: 'http://example.com/bell.mp3',
@@ -82,11 +82,6 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hyperchart",
-    "hyperterm-1password",
-    "hyperterm-bold-tab",
-    "hyperterm-gifbuddy",
-    "hyperterm-paste",
     "hyperterm-subpixel-antialiased",
     "hyperterm-title",
     "hypertile",
@@ -94,12 +89,6 @@ module.exports = {
     "hypercolors",
     "hypercwd",
     "hpm-cli",
-    "hyperterm-clicky",
-    "hyperline",
-    "hyperterm-lastpass",
-    "hyperterm-tab-cwd",
-    "hyperterm-tab-icons",
-    "hyperterm-themed-scrollbar"
   ],
   // in development, you can create a directory under
   // `~/.hyperterm_plugins/local/` and include it here

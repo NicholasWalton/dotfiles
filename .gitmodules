@@ -48,3 +48,9 @@
 [submodule "src/fzf"]
 	path = src/fzf
 	url = https://github.com/junegunn/fzf.git
+[submodule "src/git-standup"]
+	path = src/git-standup
+	url = https://github.com/kamranahmedse/git-standup.git
+[submodule "src/tiny-care-terminal"]
+	path = src/tiny-care-terminal
+	url = https://github.com/notwaldorf/tiny-care-terminal.git

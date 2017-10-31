@@ -1,0 +1,92 @@
+"*":
+  "Sublime-Style-Column-Selection":
+    mouseButtonTrigger: "Middle"
+    selectKeyTrigger: "None"
+  "atom-beautify":
+    general:
+      _analyticsUserId: "7594c019-15ed-4ec4-b1e7-04ec2beb8fde"
+  build:
+    refreshOnShowTargetList: true
+    saveOnBuild: true
+    scrollOnError: true
+    stealFocus: false
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "make-runner-panel"
+      "atom-make"
+      "build-tools-make"
+      "gcc-make-run"
+      "make-runner"
+      "atom-beautify"
+      "atom-terminal"
+      "terminal-fusion"
+      "terminal-plus"
+      "code-peek"
+      "symbols-list"
+      "hey-pane"
+      "tree-sitter-syntax"
+      "close-bracket-hint"
+      "wrap-guide"
+      "navigation-history"
+      "tab-pair-header-source"
+      "tab-preview"
+      "rename-tabs"
+      "one-tab"
+      "linter-gcc"
+      "clang-tools-extra"
+      "atom-ctags"
+      "tree-view-background"
+      "global-background"
+      "uniq-background"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    fontFamily: "Ubuntu Mono"
+    fontSize: 13
+    lineHeight: 1.1
+    showIndentGuide: true
+    softWrap: true
+  "editor-background":
+    image:
+      opacity: 23
+      overlayColor: "#000000"
+    other:
+      transparentTabBar: false
+  "exception-reporting":
+    userId: "51fc99c9-a705-4239-8763-f89ced6803c5"
+  "git-diff":
+    showIconsInEditorGutter: true
+  "hey-pane":
+    expandedWidth: 75
+  "linter-ui-default":
+    panelHeight: 243
+    showPanel: true
+  "linter-write-good":
+    additionalArgs: "--yes-eprime"
+  minimap:
+    ignoreWhitespacesInTokens: true
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+    scrollAnimation: true
+  "package-generator":
+    packageSyntax: "coffeescript"
+  "tree-view":
+    alwaysOpenExisting: true
+    autoReveal: true
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+    squashDirectoryNames: true
+  whitespace:
+    ensureSingleTrailingNewline: false
+    ignoreWhitespaceOnCurrentLine: false
+    removeTrailingWhitespace: false
+  zentabs:
+    neverCloseDirty: true
+    neverCloseNew: true
+    neverCloseUnsaved: true
