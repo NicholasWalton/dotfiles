@@ -106,9 +106,21 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyper-pane", "hyper-font-smoothing"],
+  plugins: [//"hyper-pane",
+  "hyper-font-smoothing", 
+    //"hyper-simple-highlight-active-session", "hyperterm-crosshair", "hyperzsh"
+  ],
   // in development, you can create a directory under
   // `~/.hyperterm_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
-  localPlugins: []
+  localPlugins: [],
+  
+  keymaps: {
+    "tab:next": "ctrl+pagedown",
+    "tab:prev": "ctrl+pageup",
+    "pane:next": "ctrl+shift+tab",
+    "pane:prev": "ctrl+tab",
+    "pane:splitVertical": "ctrl+shift+o",
+  }
+  
 };
