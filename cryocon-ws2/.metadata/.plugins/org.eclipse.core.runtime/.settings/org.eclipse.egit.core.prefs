@@ -1,3 +1,3 @@
-GitRepositoriesView.GitDirectories=/home/nicholaswalton/.git\:
-GitRepositoriesView.GitDirectories.relative=/home/nicholaswalton/.git\:
+GitRepositoriesView.GitDirectories=/home/nicholaswalton/.git\:/home/nicholaswalton/cryocon/.git/modules/cryocond\:
+GitRepositoriesView.GitDirectories.relative=/home/nicholaswalton/.git\:/home/nicholaswalton/cryocon/.git/modules/cryocond\:
 eclipse.preferences.version=1
